@@ -10,6 +10,9 @@ let cognome = prompt("Inserisci il tuo cognome");
 
 cognomiArray.push(cognome);
 
+// ordiniamo l'array alfabeticamente
+
+cognomiArray.sort();
 
 
 
@@ -18,4 +21,5 @@ cognomiArray.push(cognome);
 
 
 
-console.log(cognomi);
+
+console.log(cognomiArray);

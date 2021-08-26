@@ -14,6 +14,11 @@ cognomiArray.push(cognome);
 
 cognomiArray.sort();
 
+// inseriamo gli array in ordine numerico partendo da 1
+
+for( let i = 1; i <= cognomiArray.length; i++){
+    console.log(i+" "+cognomiArray[i-1]);
+}
 
 
 
@@ -22,4 +27,6 @@ cognomiArray.sort();
 
 
 
-console.log(cognomiArray);
+
+
+
